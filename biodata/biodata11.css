@@ -1,0 +1,235 @@
+/* --- RESET & GLOBAL STYLES --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a253a;
+    color: white;
+    padding-bottom: 50px;
+}
+
+/* --- HEADER / NAVBAR --- */
+header {
+    background-color: #121a29;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-placeholder img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Search Bar Wrapper */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #2c3e50;
+    border-radius: 25px;
+    padding: 5px 15px;
+    border: 1px solid #4b5d73;
+}
+
+.search-container input {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container input::placeholder {
+    color: #ccc;
+}
+
+.search-btn {
+    background: #95a5a6;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: #1a253a;
+}
+
+/* --- CONTENT TITLE --- */
+.page-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* --- GRID CONTAINER --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; /* Padding wadah dikurangi sedikit */
+}
+
+.card-grid {
+    display: grid;
+    /* TETAP 2 KOLOM (Baik Desktop maupun HP) */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px; /* Jarak default */
+    margin-top: 20px;
+}
+
+/* --- CARD STYLES --- */
+.card {
+    background-color: #ffffff;
+    color: #1a253a;
+    border-radius: 10px;
+    padding: 25px; /* Padding default */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+    height: 100%; /* Agar tinggi kartu seragam */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.photo-box {
+    width: 120px; /* Ukuran foto default */
+    height: 120px;
+    /* border: 2px solid #1a253a; */
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background-color: #eee;
+}
+
+.card-details {
+    width: 100%;
+}
+
+.detail-row {
+    margin-bottom: 8px;
+}
+
+.detail-label {
+    font-weight: 800;
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+    word-wrap: break-word; /* Mencegah nama panjang merusak layout */
+}
+
+.detail-sub {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #1a253a;
+    margin-top: 5px;
+}
+
+.detail-value {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.2;
+}
+
+/* --- NO RESULT --- */
+.no-result {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #ccc;
+    display: none;
+}
+
+/* media query tampilan desktop */
+@media (max-width: 900px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+/* --- MEDIA QUERY KHUSUS HP (Agar 2 kolom muat rapi) --- */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+    
+    .search-wrapper {
+        width: 100%;
+    }
+    
+    .page-title {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    /* PENGATURAN GRID HP */
+    .card-grid {
+        /* Tetap 2 kolom, tapi jarak antar kartu diperkecil */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+
+    /* KARTU VERSI MINI (Agar muat 2 kolom di layar sempit) */
+    .card {
+        padding: 10px; /* Padding dalam kartu diperkecil */
+        border-radius: 7px;
+    }
+
+    .photo-box {
+        width: 80px; /* Foto diperkecil agar tidak mendominasi */
+        height: 80px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+    }
+
+    .detail-label {
+        font-size: 0.95rem; /* Nama diperkecil */
+        margin-bottom: 5px;
+    }
+
+    .detail-sub {
+        font-size: 0.7rem; /* Judul info diperkecil */
+    }
+
+    .detail-value {
+        font-size: 0.7rem; /* Isi info diperkecil */
+    }
+}
