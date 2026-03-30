@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 90px; /* Sesuai dengan tinggi navbar */
     background-color: #0E182F;
 }
 
@@ -8,6 +7,7 @@ body{
     padding: 0;
     margin: 0;
 }
+
 
 *{
     box-sizing: border-box;
@@ -440,16 +440,54 @@ a{
 
 .isi .grid .item-awards h3:first-of-type{
     margin: 0px;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+/* Membuat garis pembatas pudar kiri-kanan */
+.isi .grid .item-awards h3:first-of-type::after {
+    content: '';
+    position: absolute;
+    /* Posisikan di paling bawah elemen "Soeratin" */
+    bottom: 0px; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* TINGKAT KETEBALAN & LEBAR GARIS */
+    height: 1px; /* Tipis agar elegan */
+    width: 100%; /* Lebar penuh mengikuti foto/kartu */
+
+    /* EFEK PUDAR KIRI KANAN (Gradient) */
+    /* Menggunakan warna hijau tema (#00B894) */
+    background: linear-gradient(to right, 
+        transparent 0%,    /* Kiri pudar total */
+        #00B894 30%,      /* Mulai warna solid di 30% */
+        #00B894 70%,      /* Akhir warna solid di 70% */
+        transparent 100%   /* Kanan pudar total */
+    );
 }
 
 .isi .grid .item-awards h3:last-of-type{
-    /* margin: 5px 0px 10px 0px; */
+    margin: 5px 0px 5px 0px;
     font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.item-awards p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.5rem;
+    margin: 0px;
+}
+
+.item-awards:hover{
+    transform: translateY(-7px);
+    box-shadow:  5px 5px 15px #D9DADE;
+    transition: 0.3s;
 }
 
 
@@ -573,18 +611,20 @@ a{
     .isi .grid .item h3, 
     .isi .grid .kategori h3,
     .isi .grid .item-awards h3{
-        font-size: 0.8rem; /* Font diperkecil agar tidak menumpuk */
+        font-size: 0.5rem; /* Font diperkecil agar tidak menumpuk */
         margin: 2px 0;
         line-height: 1.2;
     }
 
     .isi .grid .item-awards h3{
         margin: 0;
+        font-size: 0.8rem;
     }
 
     .isi .grid .item-awards p{
         margin: 0;
-        margin-bottom: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* margin-bottom: 10px; */
     }
     
 
