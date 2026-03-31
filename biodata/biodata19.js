@@ -7,6 +7,14 @@ const playersData = [
         nisn: "3198484394",
         sekolah: "SDN Semplak 2 Bogor",
         foto : "../img/profil.jpg"
+    },
+    {
+        nama: "Nizam Albiruni Priyatama",
+        panggilan: "nizam",
+        ttl: "Tangerang, 13 Agustus 2021",
+        nisn: "-",
+        sekolah: "KB Al Fadl ",
+        foto : "../img/nizam_albiruni.jpg"
     }
 ];
 

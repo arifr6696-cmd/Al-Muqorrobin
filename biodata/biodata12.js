@@ -15,6 +15,14 @@ const playersData = [
         nisn: "0124596103",
         sekolah: "SMPN 16 Bogor",
         foto : "../img/nizam.jpg"
+    },
+    {
+        nama: "Haykal Audistiansyah",
+        panggilan: "haykal",
+        ttl: "Bogor, 04 Desember 2012",
+        nisn: "-",
+        sekolah: "SMPN 16 Bogor",
+        foto : "../img/haykal.jpg"
     }
 ];
 

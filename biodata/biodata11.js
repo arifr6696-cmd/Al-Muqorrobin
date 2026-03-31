@@ -6,7 +6,15 @@ const playersData = [
         ttl: "Bogor, 30 April 2011",
         nisn: "3118225228",
         sekolah: "SMPN 16 Bogor",
-        foto : "../img/profil.jpg"
+        foto : "../img/beben.jpg"
+    },
+    {
+        nama: "Revi Hardian Ramdhani",
+        panggilan: "revi",
+        ttl: "Bogor, 9 Agustus 2011",
+        nisn: "0122111791",
+        sekolah: "SMPN 16 Bogor",
+        foto : "../img/revi.jpg"
     }
 ];
 

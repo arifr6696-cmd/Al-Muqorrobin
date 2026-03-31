@@ -6,7 +6,7 @@ const playersData = [
         ttl: "Bogor, 25 Oktober 2016",
         nisn: "3162235155",
         sekolah: "SDN Cimanggis 1",
-        foto : "../img/danu.png"
+        foto : "../img/danu.jpg"
     },
     {
         nama: "Muhamad Akhtar Irawan",
@@ -23,6 +23,22 @@ const playersData = [
         nisn: "-",
         sekolah: "-",
         foto : "../img/profil.jpg"
+    },
+    {
+        nama: "Muhamad Syauqi Akmal Ramadhan",
+        panggilan: "Akmal",
+        ttl: "Bogor, 19 Juni 2016",
+        nisn: "-",
+        sekolah: "SDIT Abdurrahman Bin Auf",
+        foto : "../img/akmal.jpg"
+    },
+    {
+        nama: "Razka Al Rasyid",
+        panggilan: "razka",
+        ttl: "Bogor, 04 Desember 2016",
+        nisn: "-",
+        sekolah: "SDN Kayumanis 1",
+        foto : "../img/razka.jpg"
     }
 ];
 

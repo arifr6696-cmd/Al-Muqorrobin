@@ -31,6 +31,14 @@ const playersData = [
         nisn: "3143558974",
         sekolah: "SDN KUKUPU 1",
         foto : "../img/hilmi.jpg"
+    },
+    {
+        nama: "Muhammad Haidar Ibnu Basyariyah",
+        panggilan: "haidar",
+        ttl: "Bogor, 22 September 2014",
+        nisn: "3145766657",
+        sekolah: "-",
+        foto : "../img/haidar.jpg"
     }
 ];
 

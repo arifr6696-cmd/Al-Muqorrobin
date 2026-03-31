@@ -31,6 +31,22 @@ const playersData = [
         nisn: "3178616652",
         sekolah: "-",
         foto : "../img/profil.jpg"
+    },
+    {
+        nama: "Alkhalifi Zikri Hamizan",
+        panggilan: "Alkhalifi",
+        ttl: "Bogor, 07 Februari 2017",
+        nisn: "3174809374",
+        sekolah: "SDIT Zaid bin Tsabit",
+        foto : "../img/zikri.jpg"
+    },
+    {
+        nama: "Dzikra Baihaqi Alfathir",
+        panggilan: "Dzikra",
+        ttl: "Cianjur, 27 Juli 2017",
+        nisn: "3172597461",
+        sekolah: "MI Hibrul Ulama",
+        foto : "../img/dzikra.jpg"
     }
 ];
 

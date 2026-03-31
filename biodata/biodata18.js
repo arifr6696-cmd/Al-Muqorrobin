@@ -22,7 +22,7 @@ const playersData = [
         ttl: "Bogor 09 Februari 2018",
         nisn: "3186581279",
         sekolah: "MI Hibrul Ulama",
-        foto : "../img/profil.jpg"
+        foto : "../img/zaydan.jpg"
     }
 ];
 

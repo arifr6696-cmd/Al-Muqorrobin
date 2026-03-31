@@ -55,6 +55,38 @@ const playersData = [
         nisn: "222301025",
         sekolah: "SDN Cibadak",
         foto : "../img/ahza.jpg"
+    },
+    {
+        nama: "Reval Febriansyah",
+        panggilan: "reval",
+        ttl: "Bogor, 20 Februari 2015",
+        nisn: "3156034773",
+        sekolah: "SDN Cibadak",
+        foto : "../img/reval.jpg"
+    },
+    {
+        nama: "Aldansyah Rizky Setiawan",
+        panggilan: "aldan",
+        ttl: "Bogor, 02 November 2015",
+        nisn: "3156839149",
+        sekolah: "SDN Kukupu 1",
+        foto : "../img/aldan.jpg"
+    },
+    {
+        nama: "Raka Abdillah Pradipta",
+        panggilan: "raka",
+        ttl: "Kebumen, 09 September 2015",
+        nisn: "-",
+        sekolah: "SDN Cibadak",
+        foto : "../img/raka.jpg"
+    },
+    {
+        nama: "Muhamad Daffa Setiawan",
+        panggilan: "daffa",
+        ttl: "Bogor, 05 Juni 2015",
+        nisn: "1052791934",
+        sekolah: "SDN Cibadak",
+        foto : "../img/daffa.jpg"
     }
 ];
 
