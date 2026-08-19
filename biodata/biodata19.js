@@ -6,16 +6,8 @@ const playersData = [
         ttl: "Bogor, 15 April 2019",
         nisn: "3198484394",
         sekolah: "SDN Semplak 2 Bogor",
-        foto : "../img/profil.jpg"
+        foto : "../img/melvi.jpg"
     },
-    {
-        nama: "Nizam Albiruni Priyatama",
-        panggilan: "nizam",
-        ttl: "Tangerang, 13 Agustus 2021",
-        nisn: "-",
-        sekolah: "KB Al Fadl ",
-        foto : "../img/nizam_albiruni.jpg"
-    }
 ];
 
 const cardContainer = document.getElementById('cardContainer');
