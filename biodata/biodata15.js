@@ -57,14 +57,6 @@ const playersData = [
         foto : "../img/ahza.jpg"
     },
     {
-        nama: "Reval Febriansyah",
-        panggilan: "reval",
-        ttl: "Bogor, 20 Februari 2015",
-        nisn: "3156034773",
-        sekolah: "SDN Cibadak",
-        foto : "../img/reval.jpg"
-    },
-    {
         nama: "Aldansyah Rizky Setiawan",
         panggilan: "aldan",
         ttl: "Bogor, 02 November 2015",

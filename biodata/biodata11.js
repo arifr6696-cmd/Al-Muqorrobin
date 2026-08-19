@@ -8,14 +8,6 @@ const playersData = [
         sekolah: "SMPN 16 Bogor",
         foto : "../img/beben.jpg"
     },
-    {
-        nama: "Revi Hardian Ramdhani",
-        panggilan: "revi",
-        ttl: "Bogor, 9 Agustus 2011",
-        nisn: "0122111791",
-        sekolah: "SMPN 16 Bogor",
-        foto : "../img/revi.jpg"
-    }
 ];
 
 const cardContainer = document.getElementById('cardContainer');
