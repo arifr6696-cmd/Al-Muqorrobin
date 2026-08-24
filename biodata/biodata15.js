@@ -79,6 +79,22 @@ const playersData = [
         nisn: "1052791934",
         sekolah: "SDN Cibadak",
         foto : "../img/daffa.jpg"
+    },
+    {
+        nama: "Muhammad Ammar Naupal",
+        panggilan: "ammar",
+        ttl: "Bogor, 25 Desember 2015",
+        nisn: "3157208953",
+        sekolah: "MI NURUL HUDA 1",
+        foto : "../img/ammar.jpg"
+    },
+    {
+        nama: "Muhammad Zaki Almair",
+        panggilan: "zaki",
+        ttl: "Bogor, 17 April 2015",
+        nisn: "3158469688",
+        sekolah: "SDIT AR-ROHMANIYAH",
+        foto : "../img/zaki.jpg"
     }
 ];
 

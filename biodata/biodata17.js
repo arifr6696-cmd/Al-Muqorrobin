@@ -18,7 +18,7 @@ const playersData = [
     },
     {
         nama: "Muhammad Rizky Pratama",
-        panggilan: "Pratama",
+        panggilan: "pratama",
         ttl: "Bogor, 08 September 2017",
         nisn: "3177113519",
         sekolah: "SDN Kencana 1",
@@ -26,15 +26,15 @@ const playersData = [
     },
     {
         nama: "Abidzar Al Farizqi",
-        panggilan: "Abidzar",
+        panggilan: "abidzar",
         ttl: "Bogor, 23 November 2017",
         nisn: "3178616652",
-        sekolah: "-",
-        foto : "../img/profil.jpg"
+        sekolah: "SDN Kukupu",
+        foto : "../img/abidzar.jpg"
     },
     {
         nama: "Alkhalifi Zikri Hamizan",
-        panggilan: "Alkhalifi",
+        panggilan: "alkhalifi",
         ttl: "Bogor, 07 Februari 2017",
         nisn: "3174809374",
         sekolah: "SDIT Zaid bin Tsabit",
@@ -42,11 +42,19 @@ const playersData = [
     },
     {
         nama: "Dzikra Baihaqi Alfathir",
-        panggilan: "Dzikra",
+        panggilan: "dzikra",
         ttl: "Cianjur, 27 Juli 2017",
         nisn: "3172597461",
         sekolah: "MI Hibrul Ulama",
         foto : "../img/dzikra.jpg"
+    },
+    {
+        nama: "Shaqueel Alif Ramadhan",
+        panggilan: "shaqueel",
+        ttl: "Bogor, 19 Juni 2017",
+        nisn: "3172072387",
+        sekolah: "MI Hibrul Ulama",
+        foto : "../img/profil.jpg"
     }
 ];
 

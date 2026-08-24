@@ -39,6 +39,14 @@ const playersData = [
         nisn: "-",
         sekolah: "SDN Kayumanis 1",
         foto : "../img/razka.jpg"
+    },
+    {
+        nama: "Riza Muhammad",
+        panggilan: "riza",
+        ttl: "Bogor, 03 Juni 2016",
+        nisn: "19200063",
+        sekolah: "MI Hibrululama",
+        foto : "../img/riza.jpg"
     }
 ];
 
