@@ -95,6 +95,14 @@ const playersData = [
         nisn: "3158469688",
         sekolah: "SDIT AR-ROHMANIYAH",
         foto : "../img/zaki.jpg"
+    },
+    {
+        nama: "Aqila Auli Salsabila",
+        panggilan: "aqila",
+        ttl: "Bogor, 06 Agustus 2015",
+        nisn: "3150504565",
+        sekolah: "SDN CIMANGGIS 01",
+        foto : "../img/aqila.jpg"
     }
 ];
 

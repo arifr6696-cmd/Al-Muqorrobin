@@ -53,8 +53,8 @@ const playersData = [
         panggilan: "shaqueel",
         ttl: "Bogor, 19 Juni 2017",
         nisn: "3172072387",
-        sekolah: "MI Hibrul Ulama",
-        foto : "../img/profil.jpg"
+        sekolah: "MI Yatashi",
+        foto : "../img/alif.jpg"
     }
 ];
 
